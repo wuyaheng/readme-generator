@@ -11,33 +11,47 @@ const questionsToUser = [
     },
     {
         type: "input",
+        name: "title",
+        message: "What is your project's title?"
+    },
+    {
+        type: "input",
         name: "URL_project",
         message: "What is the project URL"
     },
     {
         type: "input",
-        name: "title",
-        message: "What is your project's name?"
+        name: "description",
+        message: "Please write a short description of your project."
+    },
+    {
+        type: "list",
+        message: "What kind of license should your project have?",
+        choices: ["BSD","Apache","Eclipse"],
+        name: "licensetype"
     },
     {
         type: "input",
-        name: "description",
-        message: "Please enter a small description of your project?"
+        message: "What command should be run to install dependencies?",
+        name: "dependencies",
+        default: "npm i"
     },
     {
         type: "input",
         name: "usage",
         message: "What information is needed to be able to use URL?"
     },
-    // {
-    //     type: "input",
-    //     name: "techUsed",
-    //     message: "What technology and framework are used for this project?"
-    // },
     {
         type: "input",
-        name: "contributing",
-        message: "Enter Contributors names"
+        name: "tech",
+        message: "What technology and framework are used for this project?"
+    },
+    {
+        type: "input",
+        message: "What does the user need to know about contributing to the repo?",
+        name: "contributing"
     }
 ];
 module.exports = questionsToUser;
+
+

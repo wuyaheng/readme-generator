@@ -5,30 +5,32 @@ function generateMarkdown(data) {
 ## Description
 ${data.description}
 
+
 ## Table of Contents
 
-* Tech/Framework Used
+* [Tech/Framework Used](#TechUsed)
 
-* Usage
+* [Usage](#usage)
 
-* Contributor
+* [Contributing](#contributing)
 
-* links
+* [link](#Link)
 
-* Questions
+* [Questions](#Questions)
 
 
-## Tech/Framework Used
+## TechUsed
+${data.tech}
 
 
 ## Usage
 ${data.usage}
 
-## Contributor
+## Contributing
 ${data.contributing}
 
 
-## Link to project URL
+## Link
 ${data.URL_project}
 
 
