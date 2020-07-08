@@ -16,15 +16,9 @@ const init = async () => {
     const githubResponse = await API.getUserProfile(promptResponse.github);
     const data = {
       ...promptResponse,
-      url: githubResponse.data.avatar_url,
-      email: githubResponse.data.email
-    }
-console.log(promptResponse);
-    if(githubResponse.data.email === "null") {
-      data["email"] = "null";
+      url: githubResponse.data.avatar_url
     }
     writeToFile("README.md", generateMarkdown(data))
-
   } catch (error) {
     console.log(error)
   }

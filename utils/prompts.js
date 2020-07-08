@@ -25,12 +25,6 @@ const questionsToUser = [
         message: "Please write a short description of your project."
     },
     {
-        type: "list",
-        message: "What kind of license should your project have?",
-        choices: ["BSD","Apache","Eclipse"],
-        name: "licensetype"
-    },
-    {
         type: "input",
         message: "What command should be run to install dependencies?",
         name: "dependencies",

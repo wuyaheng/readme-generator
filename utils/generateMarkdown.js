@@ -10,11 +10,11 @@ ${data.description}
 
 * [Tech/Framework Used](#TechUsed)
 
+* [link](#Link)
+
 * [Usage](#usage)
 
 * [Contributing](#contributing)
-
-* [link](#Link)
 
 * [Questions](#Questions)
 
@@ -22,6 +22,8 @@ ${data.description}
 ## TechUsed
 ${data.tech}
 
+## Link
+${data.URL_project}
 
 ## Usage
 ${data.usage}
@@ -29,12 +31,8 @@ ${data.usage}
 ## Contributing
 ${data.contributing}
 
-
-## Link
-${data.URL_project}
-
-
 ## Questions
+![user profile image](${data.url})
 
 For questions about the project contact ${data.github} or directly at ${data.email}.
 
