@@ -12,9 +12,7 @@ ${data.description}
 
 * [link](#Link)
 
-* [Usage](#usage)
-
-* [Contributing](#contributing)
+* [Usage](#usage) 
 
 * [Questions](#Questions)
 
@@ -27,9 +25,6 @@ ${data.URL_project}
 
 ## Usage
 ${data.usage}
-
-## Contributing
-${data.contributing}
 
 ## Questions
 ![user profile image](${data.url})
