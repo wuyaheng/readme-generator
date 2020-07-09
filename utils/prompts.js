@@ -26,12 +26,6 @@ const questionsToUser = [
     },
     {
         type: "input",
-        message: "What command should be run to install dependencies?",
-        name: "dependencies",
-        default: "npm i"
-    },
-    {
-        type: "input",
         name: "usage",
         message: "What information is needed to be able to use URL?"
     },
@@ -39,11 +33,6 @@ const questionsToUser = [
         type: "input",
         name: "tech",
         message: "What technology and framework are used for this project?"
-    },
-    {
-        type: "input",
-        message: "What does the user need to know about contributing to the repo?",
-        name: "contributing"
     }
 ];
 module.exports = questionsToUser;

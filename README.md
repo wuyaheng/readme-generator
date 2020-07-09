@@ -1,8 +1,8 @@
 
-# Employee Directory
+# Weather Forecast
 
 ## Description
-Employee Directory is a simple React application that lists the name, phone, email, and location of 200 employees and allows users to filter employees’ info by either name or location. Employee information is fetched through a random user API.
+Weather Forecast is a small application that displays today’s and the next five days' weather condition of a city entered by the user.
 
 
 ## Table of Contents
@@ -13,25 +13,20 @@ Employee Directory is a simple React application that lists the name, phone, ema
 
 * [Usage](#usage)
 
-* [Contributing](#contributing)
-
 * [Questions](#Questions)
 
 
 ## TechUsed
-React, JavaScript, API
+jQuery, AJAX
 
 ## Link
-react-directory-search.herokuapp.com/
+https://phoebeyahengwu.github.io/Weather-Forecast-Web-App-With-jQuery/
 
 ## Usage
-Enter name, city or country to search or filter employees.
-
-## Contributing
-
+Enter a city name in the input box and press the search icon next to it.
 
 ## Questions
 ![user profile image](https://avatars0.githubusercontent.com/u/52837649?v=4)
 
-For questions about the project, please feel free to contact me at wuyaheng2016@gmail.com.
+For questions about the project contact PhoebeYahengWu or directly at wuyaheng2016@gmail.com.
 
