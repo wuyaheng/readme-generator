@@ -19,9 +19,7 @@ A command-line application that dynamically generates a README.md from a user's 
 prompts, inquirer, fs
 
 ## Usage
-Open integrated terminal in Visual Studio Code, enter \`\`\`
-node index
-\`\`\`
+Open integrated terminal in Visual Studio Code, enter \`\`\`node index \`\`\`
 
 ## Questions
 ![user profile image](https://avatars0.githubusercontent.com/u/52837649?v=4)
