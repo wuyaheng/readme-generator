@@ -3,7 +3,7 @@
 ![Untitled_ Jul 9, 2020 12_56 AM](https://user-images.githubusercontent.com/52837649/86998949-78ce1300-c17f-11ea-8070-0ba97f929841.gif)
 
 ## Description
-A command-line application that dynamically generates a README.md from a user's input.
+Readme Generator is a command line application that generates a complete README.md when users enter "node index" in the terminal. This will prompt a list of pre-defined questions for users to answer, in order to generate a well-structured README file. 
 
 
 ## Table of Contents
