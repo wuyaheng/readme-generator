@@ -1,14 +1,15 @@
 const inqiurer = require("inquirer");
 const fs = require("fs");
+
 const prompts = require('./utils/prompts');
 const API = require('./utils/api')
 const generateMarkdown = require("./utils/generateMarkdown")
 
 
-
 function writeToFile(fileName, data) {
   return fs.writeFileSync(fileName, data);
 }
+
 
 const init = async () => {
   try {
@@ -23,5 +24,6 @@ const init = async () => {
     console.log(error)
   }
 }
+
 
 init();
